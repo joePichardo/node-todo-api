@@ -12,9 +12,9 @@ var password = '123abc!';
 
 var hashedPassword = '$2a$10$5TnHEG9dXmuZZM04A5un4uoWANji58eLtgxhVJkDwFelicEQnwagW';
 
-bcrypt.compare("123!", hashedPassword, (err, res) => {
-  console.log(res);
-});
+// bcrypt.compare("123!", hashedPassword, (err, res) => {
+//   console.log(res);
+// });
 
 // var data = {
 //   id: 10
